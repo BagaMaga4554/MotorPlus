@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контроль качества топлива</title>
+</head>
+<body>
+    <style>
+        /* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/*header*/
+.header {
+    display: flex;
+    width: 100%;
+    height: 176px;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 57.5px;
+    height: 50px;
+    left: 900px;
+    align-items: center;
+}
+
+.logo {
+    height: 176px;
+    cursor: pointer;
+}
+
+ol {
+    margin-right: 122px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #FFA500;
+    transition: color 0.2s ease;
+}
+
+/* Введение */
+h1 {
+    position: relative;
+    left: 100px;
+    font-size: 60px;
+}
+
+.description1, .description2 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.number-description1 {
+    background-color: #FFA500;
+    border-radius: 20%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.description1 p, .description2 p {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+/* Этапы контроля */
+.steps {
+    display: inline;
+}
+
+.block-main h2 {
+    font-size: 60px;
+}
+
+.block-main {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 32px;
+    left: 100px;
+}
+
+.block-main p {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 10px;
+}
+
+.step1 {
+    display: flex;
+    position: relative;
+    left: 100px;
+    margin-bottom: 120px;
+}
+
+.text-content {
+    width: 1000px;
+}
+
+.text-content > h3 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 10px;
+    width: 1070px;
+}
+
+.step1 h3 span {
+    display: inline-block;
+    justify-content: center;
+    background-color: #ffa500;
+    font-size: 50px;
+    width: 78px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.text-content p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.text-content > .p2 {
+    color: #979797;
+}
+
+.step1 img {
+    position: relative;
+    border-radius: 5px;
+    top: 140px;
+}
+
+/* Подвал */
+.footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 178px;
+    top: 159px;
+}
+
+.support {
+    position: relative;
+    top: 60px;
+    left: 346px;
+    width: 242px;
+    height: 69px;
+}
+
+.support > p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.support1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.social-network {
+    display: flex;
+    position: relative;
+    top: 60px;
+    gap: 38px;
+    left: 700px;
+    height: 60px;
+    align-items: center;
+}
+
+.social-network > img {
+    height: 38px;
+}
+
+.copyright {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 900px;
+}
+
+.copyright > img {
+    width: 38px;
+}
+
+    </style>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <a href="Главная.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+        <ul class="navigation">
+            <a href=""><ol>Наши услуги</ol></a>
+            <a href="топливо.html"><ol>Топливо</ol></a>         
+            <a href="акции.html"><ol>Акции</ol></a>
+        </ul>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main>
+            <h1>ГАРАНТИРОВАННЫЙ <br> КОНТРОЛЬ КАЧЕСТВА</h1>
+            <div class="description1">
+                <div class="number-description1"></div>
+                <p>В Компании МоторПлюс выстроена риско-ориентированная система 
+                    <br> управления качеством топлива на всех этапах его производства, 
+                    <br> транспортировки и реализации потребителям. Система обеспечивает 
+                    <br> уверенность в высоком качестве топлива от заводского резервуара до бака 
+                    <br> автомобиля.</p>
+            </div>
+            <div class="description2">
+                <div class="number-description1"></div>
+                <p>Компания МоторПлюс производит моторное топливо на собственных НПЗ (13 на 
+                    <br> территории России), хранит на собственных нефтебазах (113 нефтебаз) и 
+                    <br> реализует через собственную сбытовую сеть (около 3000 АЗС).</p>
+            </div>            
+        </section>
+
+        <!-- Семь этапов контроля -->
+            <div class="block-main">
+                <p>7</p>
+                <h2>СТУПЕНЕЙ КОНТРОЛЯ КАЧЕСТВА</h2>
+            </div>
+
+            <!-- Этап 1 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>1</span> КОНТРОЛЬ ГОТОВОГО ПРОДУКТА НА ЗАВОДЕ</h3>
+                    <p>Производство топлива осуществляется на собственных НПЗ</p>
+                    <p class="p2">Контроль качества топлива по 18 эксплуатационным и 
+                        экологическим характеристикам осуществляется в 13 
+                        стационарных заводских лабораториях с оформлением 
+                        декларации о соответствии топлива требованиям ТР ТС 013/2011 и 
+                        паспорта качества на каждую партию топлива.</p>
+                </div>
+                    <img src="img/step1.jpg" alt="Контроль на заводе">
+            </div>            
+
+            <!-- Этап 2 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>2</span>КОНТРОЛЬ ПРИ ОТГРУЗКЕ ГОТОВОГО ПРОДУКТА</h3>
+                    <p>Пломбировка железнодорожной цистерны</p>
+                    <p class="p2">Отгрузка топлива с завода осуществляется трубопроводным, железнодорожным и автомобильным транспортом. Перед отгрузкой из транспортных средств  отбираются пробы для контроля. Для обеспечения сохранности топлива в  пути транспортные средства пломбируются.</p>
+                </div>
+                <div class="image-content">
+                    <img src="img/step2.jpg" alt="Контроль на заводе">
+                </div>
+            </div>   
+
+            <!-- Этап 3 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>3</span>КОНТРОЛЬ ПРИ ПРИЁМКЕ НЕФТЕПРОДУКТОВ НА НЕФТЕБАЗЕ</h3>
+                    <p>Хранение нефтепродуктов осуществляется на собственных нефтебазах</p>
+                    <p class="p2">При приемке топлива, поступившего на нефтебазу, перед его сливом в  резервуар отбираются пробы из транспортных средств, проводятся испытания по основным показателям качества. Проводится контроль соответствия  топлива требованиям стандарта.</p>
+                </div>
+                <div class="image-content">
+                    <img src="img/step3.jpg" alt="Контроль на заводе">
+                </div>
+            </div>   
+
+            <!-- Этап 4 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>4</span>КОНТРОЛЬ ПРИ ХРАНЕНИИ НЕФТЕПРОДУКТОВ В РЕЗЕРВУАРЕ</h3>
+                    <p>Контроль качества осуществляется  собственными сбытовыми лабораториями</p>
+                    <p class="p2">Топливо на нефтебазе хранится в резервуарах.  
+
+                        Контроль качества в резервуарах проводится после слива топлива из  транспортных средств.  
+                        
+                        По результатам  контроля оформляется паспорт качества с заключением о  соответствии топлива требованиям стандартов и Технического регламента.</p>
+                </div>
+                <div class="image-content">
+                    <img src="img/step4.png" alt="Контроль на заводе">
+                </div>
+            </div>   
+
+            <!-- Этап 5 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>5</span>КОНТРОЛЬ ПРИ ОТГРУЗКЕ НА АВТОТРАНСПОРТ</h3>
+                    <p>Перевозка топлива осуществляется специализированным современным автотранспортом</p>
+                    <p class="p2">Транспортировка топлива до АЗС Компания осуществляет собственными  бензовозами (более 900 единиц ) и автотранспортом подрядных организаций.  
+
+                        Все емкости бензовозов пломбируются,  осуществляется GPS-контроль движения автотранспорта.
+                        
+                        Реализуется программа оснащения бензовозов системой гарантированной доставки по количеству и качеству топлива.</p>
+                </div>
+                <div class="image-content">
+                    <img src="img/step5.jpg" alt="Контроль на заводе">
+                </div>
+            </div>   
+
+            <!-- Этап 6 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>6</span>КОНТРОЛЬ ПРИ ПРИЁМКЕ НА АЗС</h3>
+                    <p>Контроль топлива при приемке  из автотранспорта на АЗС</p>
+                    <p class="p2">При поступлении топлива на АЗС из каждой секции автоцистерны для  контроля отбирается проба. Контроль качества проводится по основным  показателям. Обязательно наличие паспорта качества, выданного  нефтебазой.</p>
+                </div>
+                <div class="image-content">
+                    <img src="img/step6.jpg" alt="Контроль на заводе">
+                </div>
+            </div>   
+
+            <!-- Этап 7 -->
+            <div class="step1">
+                <div class="text-content">
+                    <h3><span>7</span>КОНТРОЛЬ НА АЗС</h3>
+                    <p>Контроль качества корпоративными  мобильными лабораториями</p>
+                    <p class="p2">Контроль качества топлива на АЗС осуществляется 15 собственными  мобильными лабораториями, экспресс анализаторы которых позволяют  определить качество топлива по основным параметрам за 20 минут.  Сотрудники мобильных лабораторий выполняют порядка 14 тысяч различных  анализов в месяц.</p>
+                </div>
+                <div class="image-content">
+                    <img src="img/step7.jpg" alt="Контроль на заводе">
+                </div>
+            </div>   
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <a href=""><img src="img/logo.svg" alt="logo" class="logo"></a>
+        <div class="support">
+            <p class="support1">Горячая линия</p>
+            <p>+7 888 55 35 35</p>
+        </div>
+        <div class="social-network">
+            <a href=""><img src="img/telegram.svg" alt="telegram"></a>
+            <a href=""><img src="img/email.svg" alt="email"></a>   
+        </div>
+        <div class="copyright">
+            <img src="img/copyright.svg" alt="copyright">
+            <p>MOTORPLUS, 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Акции</title>
+</head>
+<body>
+    <style>
+        body {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*header*/
+.header {
+    display: flex;
+    width: 100%;
+    height: 176px;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 57.5px;
+    height: 50px;
+    left: 900px;
+    align-items: center;
+}
+
+.logo {
+    height: 176px;
+    cursor: pointer;
+}
+
+ol {
+    margin-right: 122px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #FFA500;
+    transition: color 0.2s ease;
+}
+
+/*actions*/
+.actions {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 1080px;
+    top: 119px;
+}
+
+.h1-actions {
+    position: relative;
+    margin: 0;
+    font-size: 60px;
+    font-weight: 600;
+    left: 60px;
+    top: 119px;
+}
+
+.card-container {
+    width: auto;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 30px;
+    top: 80px;
+    left: -80px;
+}
+
+.card {
+    text-align: center;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card > h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.card > p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button-card {
+    border: none;
+    border-radius: 20px;
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-card:hover {
+    background-color: #c07f06;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 178px;
+    top: 630px;
+}
+
+.support {
+    position: relative;
+    top: 60px;
+    left: 346px;
+    width: 242px;
+    height: 69px;
+}
+
+.support > p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.support1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.social-network {
+    display: flex;
+    position: relative;
+    top: 60px;
+    gap: 38px;
+    left: 700px;
+    height: 60px;
+    align-items: center;
+}
+
+.social-network > img {
+    height: 38px;
+}
+
+.copyright {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 900px;
+}
+
+.copyright > img {
+    width: 38px;
+}
+
+    </style>
+
+    <header class="header">
+        <a href="Главная.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+        <ul class="navigation">
+            <a href=""><ol>Наши услуги</ol></a>
+            <a href="топливо.html"><ol>Топливо</ol></a>
+            <a href="акции.html"><ol>Акции</ol></a>
+        </ul>
+    </header>
+
+    <section class="actions">
+        <h1 class="h1-actions">АКЦИИ</h1>
+        <div class="card-container">
+            <div class="card-container">
+                <div class="card1">
+                    <img class="photo-card1" src="img/photo-card1.png" alt="карточка1"/>
+                    <h3>Бургер в подарок</h3>
+                    <p>При заправке от 5 литров — бургер и напиток в подарок в нашем кафе. Сытный бонус для тех, кто в пути!</p>
+                    <button type="submit" class="button-section2">Узнать больше</button>
+                </div>
+                <div class="card1">
+                    <img class="photo-card1" src="img/photo-card2.png" alt="карточка2"/>
+                    <h3>Проверь авто — заправься уверенно</h3>
+                    <p>Бесплатная диагностика автомобиля при заправке на 15 литров и более. Уверенность на дороге — наш приоритет!</p>
+                    <button type="submit" class="button-section2">Узнать больше</button>
+                </div>
+                <div class="card1">
+                    <img class="photo-card1" src="img/photo-card3.png" alt="карточка3"/>
+                    <h3>Колеса под контролем</h3>
+                    <p>При заправке топлива от 30 литров — бесплатная проверка давления в шинах и их подкачка на АЗС MOTORPLUS.</p>
+                    <button type="submit" class="button-section2">Узнать больше</button>
+                </div>
+                <div class="card1">
+                    <img class="photo-card1" src="img/coffee.jpg" alt="карточка1"/>
+                    <h3>Кофе за рулём</h3>
+                    <p>Заправься от 20 литров — и получи ароматный кофе на выбор бесплатно. Для бодрого старта дня!</p>
+                    <button type="submit" class="button-section2">Узнать больше</button>
+                </div>
+                <div class="card1">
+                    <img class="photo-card1" src="img/car-oil.jpeg" alt="карточка2"/>
+                    <h3>Масло в подарок</h3>
+                    <p>При заправке от 50 литров получи скидку 30% на моторное масло или замену масла на нашей станции.</p>
+                    <button type="submit" class="button-section2">Узнать больше</button>
+                </div>
+                <div class="card1">
+                    <img class="photo-card1" src="img/cashback.jpg" alt="карточка3"/>
+                    <h3>Топливный кэшбэк</h3>
+                    <p>Заправься на сумму от 3000 рублей и получи 10% бонусов на топливную карту для следующей поездки.</p>
+                    <button type="submit" class="button-section2">Узнать больше</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href=""><img src="img/logo.svg" alt="logo" class="logo"></a>
+        <div class="support">
+            <p class="support1">Горячая линия</p>
+            <p>+7 888 55 35 35</p>
+        </div>
+        <div class="social-network">
+            <a href=""><img src="img/telegram.svg" alt="telegram"></a>
+            <a href=""><img src="img/email.svg" alt="email"></a>
+        </div>
+        <div class="copyright">
+            <img src="img/copyright.svg" alt="copyright">
+            <p>MOTORPLUS, 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
